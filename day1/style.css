@@ -1,0 +1,30 @@
+.instruments {
+	display: flex;
+    justify-content: space-around;
+	width: 50%;
+	height: 50%;
+	margin: auto;
+	text-align: center;
+}
+
+.instrument {
+	width: 25%;
+	min-height: 50px;
+	border-radius: 5px;
+	background-color: yellow;
+	transition: border 0.1s, transform 0.2s;
+}
+
+.instrument * {
+	vertical-align: middle;
+}
+
+kbd {
+	font-size: 30px;
+	color: orange;
+}
+
+.playing {
+	border: 2px solid brown;
+	transform: scale(1.2);
+}
