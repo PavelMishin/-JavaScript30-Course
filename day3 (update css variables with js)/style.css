@@ -1,0 +1,30 @@
+:root {
+    --h-size: 36px;
+    --bg-color: #ccbbaa;
+    --blur: 2px;
+}
+
+html,
+body {
+    background-color: var(--bg-color);
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+    font-size: var(--h-size);
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+img {
+    filter: blur(var(--blur));
+    display: block;
+}
